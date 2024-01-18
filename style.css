@@ -1,0 +1,34 @@
+body{
+    margin-top: 1em;
+   padding: 10em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+hr{
+    margin-top: -1px;
+    font-weight: bold;
+    height: 3px;
+    background-color: black;
+}
+
+.line h4{
+   font-weight: normal; 
+}
+.line hr{
+    height: 1px;
+    background-color: black;
+}
+ul{
+    list-style-type:none;
+    margin: 5px;
+    padding: 0;
+}
+li::before{
+    content: '\2022';
+    color: black;
+    display: inline-block;
+    margin-right: 2em;
+    
+}
+
